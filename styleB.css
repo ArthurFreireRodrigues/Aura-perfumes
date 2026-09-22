@@ -1,0 +1,152 @@
+header {
+    background-color: #3B2922;
+    padding: 20px 40px;
+    border-bottom: 2px solid #C9A45C;
+}
+
+footer {
+    background-color: #2A1D18;
+    color: #F8F1E7;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h2 {
+    color: #D4AF6A;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+footer p {
+    margin: 8px 0;
+    color: #E8D5C4;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #F8F1E7;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D4AF6A;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E8D5C4;
+  color: #3B2922;
+  margin: 0;
+
+}
+
+h1 {
+  color: #D4AF6A;
+  font-size: 28px;
+  margin: 0;
+}
+
+h2 {
+  color: #3B2922;
+justify-content: center;
+  margin-top: 60px;
+  font-size: 36px;
+  display: flex;
+
+}
+
+p {
+  display: block;
+  margin-block: 1em;
+  padding: 20px;
+}
+
+/*SECAO*/
+
+.primeiro{ /* Secao principal */
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 12px;
+    font-size: 25px;
+    gap: 20px;/*espaco entre os iten*/
+    justify-content: center;
+    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+    
+}
+
+
+
+/*carregar mais*/
+#carregarmais {
+    width: 90%;
+    height: 42px;
+    margin: 30px auto;
+    display: block;
+
+    background: white;
+    border: 1px solid #ff7b3d;
+    border-radius: 25px;
+
+    font-size: 14px;
+    color: #222;
+    cursor: pointer;
+}
+
+#carregarmais span {
+    font-size: 22px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+#carregarmais:hover {
+    background: #fff5ef;
+}
+
+/*card*/
+
+.blog-card {
+     background-color: #f8f1e8;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100%;
+    width: 500px;
+    align-content: center;
+
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    display: block;
+    
+}
+
+

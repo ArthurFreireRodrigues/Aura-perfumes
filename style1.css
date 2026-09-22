@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+}
+
+/* =========================
+   PÁGINA
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E8D5C4;
+    color: #3B2922;
+    margin: 0;
+}
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+header {
+    background-color: #3B2922;
+    padding: 20px 40px;
+    border-bottom: 2px solid #C9A45C;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+
+h1 {
+    color: #D4AF6A;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* =========================
+   MENU
+========================= */
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #F8F1E7;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D4AF6A;
+}
+
+/* =========================
+   TÍTULOS
+========================= */
+
+h2 {
+    color: #3B2922;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 36px;
+}
+
+/* =========================
+   IMAGENS
+========================= */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 60px 40px;
+}
+
+.hero-texto {
+    max-width: 500px;
+}
+
+.hero-texto h2 {
+    color: #3B2922;
+    font-size: 42px;
+    margin: 0 0 15px;
+    text-align: left;
+}
+
+.hero-texto p {
+    color: #5A463B;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-botao {
+    display: inline-block;
+    background-color: #D4AF6A;
+    color: #3B2922;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-botao:hover {
+    background-color: #C29A50;
+}
+
+.hero img {
+    width: 280px;
+    height: auto;
+    margin: 0;
+}
+
+/* =========================
+   APRESENTAÇÃO
+========================= */
+
+.apresentacao {
+    background-color: #F8F1E7;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.apresentacao h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.apresentacao p {
+    max-width: 700px;
+    margin: 10px auto;
+    color: #5A463B;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.apresentacao a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #3B2922;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #D4AF6A;
+    padding-bottom: 5px;
+}
+
+.apresentacao a:hover {
+    color: #B08A45;
+}
+
+/* =========================
+   PRODUTOS
+========================= */
+
+.produtos-destaque {
+    padding: 50px 40px 80px;
+    text-align: center;
+}
+
+.produtos-destaque > h2 {
+    color: #3B2922;
+    font-size: 32px;
+    margin: 0 0 35px;
+}
+
+.lista-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.produto-card {
+    width: 220px;
+    min-height: 330px;
+    padding: 25px;
+    background-color: #F8F1E7;
+    border: 1px solid #D4AF6A;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.produto-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(59, 41, 34, 0.15);
+}
+
+.produto-card img {
+    width: 150px;
+    height: 170px;
+    object-fit: contain;
+    margin: 0 auto 15px;
+}
+
+.produto-card h3 {
+    color: #3B2922;
+    margin-bottom: 10px;
+}
+
+.produto-card p {
+    color: #6B5548;
+    margin-bottom: 12px;
+}
+
+.produto-card span {
+    color: #B08A45;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Botão dos produtos */
+
+.botao-produtos {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: #3B2922;
+    color: #F8F1E7;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao-produtos:hover {
+    background-color: #5A463B;
+}
+
+/* =========================
+   CHAMADA FINAL
+========================= */
+
+.chamada {
+    background-color: #3B2922;
+    color: #F8F1E7;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.chamada h2 {
+    color: #D4AF6A;
+    margin: 0 0 20px;
+    font-size: 32px;
+}
+
+.chamada p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.chamada a {
+    display: inline-block;
+    background-color: #D4AF6A;
+    color: #3B2922;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.chamada a:hover {
+    background-color: #C29A50;
+}
+
+/* =========================
+   RODAPÉ
+========================= */
+
+footer {
+    background-color: #2A1D18;
+    color: #F8F1E7;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h2 {
+    color: #D4AF6A;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+footer p {
+    margin: 8px 0;
+    color: #E8D5C4;
+}
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding: 50px 20px;
+    }
+
+    .hero-texto h2 {
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .hero img {
+        width: 220px;
+    }
+
+    .produto-card {
+        width: 250px;
+    }
+
+}
